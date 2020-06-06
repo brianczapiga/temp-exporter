@@ -1,11 +1,12 @@
 # DS18B20 Temperature Exporter
 
-For prometheus
+For exposing a DS18B20 sensor as a prometheus metric. Developed on Raspberry Pi Zero W.
 
 # Usage
 
 ```
 pip3 install -r requirements.txt
+./temp-exporter.py
 ```
 
 # Code Attribution
