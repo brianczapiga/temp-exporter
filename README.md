@@ -5,7 +5,8 @@ For exposing a DS18B20 sensor as a prometheus metric. Developed on Raspberry Pi 
 # Usage
 
 ```
-pip3 install -r requirements.txt
+sudo apt-get install --fix-missing -y python3-pip
+sudo pip3 install -r requirements.txt
 ./temp-exporter.py
 ```
 
